@@ -45,3 +45,6 @@ Removing files with invalid apex code, like a template with a placeholder `%%%NA
 cd projects
 rm Cumulus/scripts/configure_npsp_default_settings.cls
 ```
+
+## Import date
+Wednesday Oct 24, 2018 / 4:00 PM
