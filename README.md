@@ -39,12 +39,5 @@ find . -type d -name ".git" -exec rm -r "{}" \;
 find . -type d -empty -delete
 ```
 
-## Remove invalid files
-Removing files with invalid apex code, like a template with a placeholder `%%%NAMESPACE%%%` that does not compile.
-```bash
-cd projects
-rm Cumulus/scripts/configure_npsp_default_settings.cls
-```
-
 ## Import date
 Wednesday Oct 24, 2018 / 4:00 PM
